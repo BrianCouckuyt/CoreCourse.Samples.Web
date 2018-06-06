@@ -1,0 +1,11 @@
+﻿@model CoreCourse.Samples.Web.ViewModels.UsersLoginVm
+
+<h2>Login</h2>
+<form asp-action="Login" method="post">
+    <label asp-for="UserName"></label>
+    <input asp-for="UserName" class="form-control" />
+    <label asp-for="Password"></label>
+    <input asp-for="Password" class="form-control" />
+
+    <button type="submit" class="btn btn-danger">Login</button>
+</form>
